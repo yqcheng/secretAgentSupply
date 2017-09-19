@@ -1,3 +1,73 @@
-.logo {
-  background-color: red;
+html,
+body{
+  font-size: 18px;
+  font-family: Helvetica;
+  color: white;
+}
+
+body {
+
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.logo{
+  background-color: black;
+}
+
+.logo .container {
+  display: flex;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding: 0.5rem 1rem 0 0.5rem;
+}
+
+.logo p {
+  padding: 0.66rem 0;
+}
+
+.main {
+  background-image: url('../../resources/img/bannerMotoBg.jpeg');
+  background-size: cover;
+  height: 25rem;
+}
+
+.banner_text {
+  background-color: black;
+  width: 20rem;
+  font-weight: bold;
+  margin-top: 9rem;
+  padding: 2rem 3rem;
+}
+
+.banner_text h1 {
+  font-size: 2rem;
+  padding-top: 0.25rem;
+}
+
+nav {
+  background-color: firebrick;
+  margin-top: 4rem;
+  padding: 0.75rem 0;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product {
+  margin-top: 3rem;
 }
