@@ -183,8 +183,12 @@ ul {
       height: 16.32rem;
     }
 
-    .banner_text {
+    .container{
       width: 100%;
+    }
+
+    .banner_text {
+      width: 92.5%;
       padding: 1rem 0 1rem 2rem;
       margin-bottom: 0.5rem;
     }
