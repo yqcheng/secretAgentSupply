@@ -63,6 +63,10 @@ ul {
   justify-content: space-between;
 }
 
+#menu {
+  display: none;
+}
+
 .product {
   display: flex;
   justify-content: space-between;
@@ -71,27 +75,35 @@ ul {
 }
 
 .product img{
-  border: 2px solid black;
   height: 9rem;
   padding: 3rem;
 }
 
+.pen img,
+.watch img{
+  padding-right: 3.7rem;
+}
+
 .product p {
+  width: 100%;
   background-color: black;
   text-align: center;
   padding: 0.5rem 0;
 }
 
-.img_text {
+.box {
   width: 30%;
-  display: flex;
-  flex-direction: column;
+  border: 2px solid black;
+}
+
+.img_text p{
+  margin-top: -0.26rem;
 }
 
 .glasses img{
   width: 50%;
   height: auto;
-  padding: 5.6rem 3.89rem;
+  padding: 5.65rem 3.89rem;
 }
 
 #loc,
@@ -123,3 +135,54 @@ ul {
 footer p {
   padding: 2.5rem 0;
 }
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  .menu {
+    display: none;
+
+  }
+
+  #menu {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .glasses_box {
+    display: none;
+  }
+
+  .box{
+    width: 47%;
+  }
+
+  .img_text {
+    width: 100%;
+  }
+
+  .img_text img{
+    padding: 3rem 0;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  }
+/*
+  @media only screen and (max-width: 470px) {
+    .watch {
+      display: none;
+    }
+
+    .box {
+      background-color: white;
+      width: 90%;
+    }
+  }
+
+
+}*/
