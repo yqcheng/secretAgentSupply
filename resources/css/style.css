@@ -185,24 +185,31 @@ ul {
 
     .container{
       width: 100%;
+
     }
+
 
     .banner_text {
-      width: 92.5%;
-      padding: 1rem 0 1rem 2rem;
-      margin-bottom: 0.5rem;
-    }
+      width: 100%;
+      padding: 1rem 0;
+      margin-bottom: 2rem;
 
-    nav {
-      margin: 0;
+
     }
 
     .banner_text p {
       font-size: 0.77rem;
+      padding-left: 2rem;
+
     }
 
     .banner_text h1 {
       font-size: 1rem;
+      padding-left: 2rem;
+    }
+
+    nav {
+      margin: -1.2rem 0;
     }
 
     .watch_box {
